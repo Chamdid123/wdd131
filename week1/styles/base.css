@@ -10,8 +10,14 @@ nav {
     background-color: rgb(201, 201, 244);
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
 }
 nav a {
+    
     padding: 1rem;
     text-decoration: none;
 }
@@ -19,12 +25,21 @@ nav ul {
     display: flex;
     justify-content: center;
 }
+nav a:hover{
+    border: 1px solid #f7f7f7;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    align-content: center;
+    background-color: azure;
+}
 
 main h1{
     text-align: center;
 }
 .card img {
-    width: 200px;
+    width: 110px;
     border-radius: 10px;
     float: right;
 
