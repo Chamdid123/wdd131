@@ -6,6 +6,17 @@
     max-width: 700px;
     margin: 0 auto;
 }
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+header {
+    text-align: center;
+}
 nav {
     background-color: rgb(201, 201, 244);
     max-width: 800px;
@@ -36,7 +47,9 @@ main{
 }
 
 main h1{
+    display: block;
     text-align: center;
+    font-weight: 900;
 }
 .card img {
     width: 110px;
@@ -45,7 +58,7 @@ main h1{
 
 }
 .hero img {
-    width: 20%;
+    width: 40%;
     border-radius: 10px;
     float: left;
 }
@@ -56,14 +69,15 @@ main h1{
 .card {
     border: 1px solid;
     border-radius: 10%;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 .card h2 {
     background-color: rgb(220, 241, 241);
     padding: 10px;
     border-radius: 8px 8px 0 0;
     text-align: center;
+    font-weight: 600;
 }
 .card h3 {
     text-align: center;
@@ -73,11 +87,13 @@ main h1{
     text-align: center;
     width: 27rem;
     margin: 0 auto;
+    font-weight: 500;
     
     
 }
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 footer{
     text-align: center;
