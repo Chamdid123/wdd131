@@ -1,0 +1,43 @@
+body{
+    font-family: "Oswald", sans-serif;
+
+}
+
+header {
+    background-color: rgb(201, 201, 244);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
+}
+header p{
+    font-size:30px;
+}
+
+nav a {
+    
+    padding: 1rem;
+    text-decoration: none;
+}
+.navi {
+    display: flex;
+    justify-content: center;
+}    
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+.pics{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+figcaption{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(224, 250, 250);
+}    
