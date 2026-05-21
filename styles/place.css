@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+.sec{
+    border: 1px solid;
+}
+.sect{
+    border: 1px solid;
+}    
+section{
+    border: 1px solid;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.label{
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    width: 400px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(224, 250, 250);
+}
