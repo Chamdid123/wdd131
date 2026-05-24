@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px){
+    
+    body{
+        background-color: rgb(168, 168, 168);
+    }
+
+    .hero{
+        position: relative;
+    }
+    .hero img{
+        display: block;
+        width: 100%;
+    }
+    .sec{
+        position: absolute;
+        width: 35%;
+        top: 70px;
+    }
+
+    .sect{
+        position: absolute;
+        width: 35%;
+        bottom: -200px;
+        right: 20px;
+    }
+    .sector{
+        
+    }
+}
