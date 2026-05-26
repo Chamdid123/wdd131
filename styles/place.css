@@ -30,5 +30,5 @@ img{
 footer{
     width: 100%;
     text-align: center;
-    background-color:var(--secondary-color);
+    background-color:rgb(224, 250, 250);
 }
