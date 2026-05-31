@@ -1,0 +1,89 @@
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    background-color: rgb(201, 201, 244);
+    display: grid;
+
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+header p{
+    font-size:30px;
+}
+
+#menu {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    
+
+}
+
+#menu::before{
+    content: "≡";
+}
+#menu.open::before{
+    content: "X";
+}
+
+img {
+    width: 300px;
+}
+
+.navi{
+    display: flex;
+    flex-direction: column;
+
+}
+.navi a { 
+    display: none; 
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: larger;
+}
+.open a{
+    display: block;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.navi a:hover, .navi a:active{
+    color: rgb(244, 246, 248);
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+.pics{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+figcaption{
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(224, 250, 250);
+}    

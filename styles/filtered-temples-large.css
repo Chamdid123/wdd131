@@ -1,0 +1,27 @@
+@media screen and (min-width: 32em){
+    #menu{
+        display: none;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navi{
+        justify-content: center;
+        flex-direction: row;
+    }
+    .navi a {
+        display: block;
+    }
+    .pics{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 32em){
+
+    .pics{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
