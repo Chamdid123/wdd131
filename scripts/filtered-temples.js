@@ -66,5 +66,58 @@ const temples = [
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
-  // Add more temple objects here...
 ];
+const gallery = document.querySelector(".gallery");
+function displayTemples(templesList) {
+  gallery.innerHTML = "";
+  templesList.forEach(temples => {
+    const card = document.createElement("section");
+
+    card.innerHTML = `
+      <h3>${temples.templeName}</h3>
+      <p><strong>Location:</strong>${temples.location}</p>
+      <p><strong>Dedicated:</strong>${temples.dedicated}</p>
+      <p><strong>Area:</strong>${temples.area.toLocaleString()}</p>
+      <img src = "${temples.imageUrl}" alt ="${temples.templeName}" loading="lazy">
+    `;
+    gallery.appendChild(card);
+   });
+}
+
+displayTemples(temples);
+
+document.querySelector("#home").addEventListener("click", () => {
+    displayTemples(temples);
+});
+
+document.querySelector("#old").addEventListener("click", () => {
+    displayTemples(
+        temples.filter(temple =>
+            parseInt(temple.dedicated) < 1900
+        )
+    );
+});
+
+document.querySelector("#new").addEventListener("click", () => {
+    displayTemples(
+        temples.filter(temple =>
+            parseInt(temple.dedicated) > 2000
+        )
+    );
+});
+
+document.querySelector("#large").addEventListener("click", () => {
+    displayTemples(
+        temples.filter(temple =>
+            temple.area > 90000
+        )
+    );
+});
+
+document.querySelector("#small").addEventListener("click", () => {
+    displayTemples(
+        temples.filter(temple =>
+            temple.area < 10000
+        )
+    );
+});
