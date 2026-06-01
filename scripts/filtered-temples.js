@@ -66,6 +66,27 @@ const temples = [
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
+  {
+    templeName: "Fukuoka Japan",
+    location: "Fukuoka City, Japan",
+    dedicated: "2000, june, 11",
+    area: 10700,
+    imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/fukuoka-japan-temple/fukuoka-japan-temple-14618-main.jpg"
+  },
+  {
+    templeName: "Alaska United States",
+    location: "Alaska United States",
+    dedicated: "1999, January, 9-10",
+    area: 11937,
+    imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/anchorage-alaska-temple/anchorage-alaska-temple-57454-icon.jpg"
+  },
+  {
+    templeName: "A Fokontany Andranoro",
+    location: "  Antananarivo",
+    dedicated: "2025, March, 15",
+    area: 10000,
+    imageUrl:"https://churchofjesuschristtemples.org/assets/img/temples/antananarivo-madagascar-temple/antananarivo-madagascar-temple-57245-main.jpg"
+  },
 ];
 const gallery = document.querySelector(".gallery");
 function displayTemples(templesList) {

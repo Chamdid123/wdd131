@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 32em){
     #menu{
         display: none;
     }
@@ -15,13 +15,13 @@
         display: block;
     }
     .gallery{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (min-width: 32em){
+@media screen and (min-width: 64em){
 
     .gallery{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
