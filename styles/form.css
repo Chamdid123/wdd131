@@ -1,3 +1,22 @@
+.cham fieldset{
+    padding: .5rem 2%;
+}
+.cham legend{
+    padding-top: 1rem;
+    color: blue;
+}
+
+.cham{
+    display: block;
+    padding-top: 1rem;
+}
+
+.cham input[type="checkbox"], [type="text"]{
+    display: block;
+    width: 100%;
+}
+
+
 footer{
     text-align: center;
     background-color: rgb(224, 250, 250);

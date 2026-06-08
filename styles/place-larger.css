@@ -4,11 +4,11 @@
         background-color: rgb(168, 168, 168);
     }
     main {
-        position: relative;
+        position: relative ;
     }
 
     .hero{
-        position: relative;
+        position: relative ;
     }
     .hero img{
         display: block;
