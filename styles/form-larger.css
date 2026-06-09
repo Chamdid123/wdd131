@@ -1,21 +1,13 @@
-body{
-    background-color: rgb(222, 234, 234);
-    margin: 0;
-    max-width: 600px;
-    margin: 20px auto;
-}
-header{
-    background-color: rgb(254, 241, 241);
-    color: rgb(210, 207, 207);
-    text-align: center;
-}
-main{
-    max-width: 800px;
-    margin: 20px auto;
-
-}
+@media screen and (min-width: 32em){
 form{
-    background-color: #e8e2e8;
+    background-color: #c8ddea;
+    border-radius: 5px;
+}    
+}
+
+@media screen and (min-width: 64em){
+form{
+    background-color: #dbc7f8;
     border-radius: 5px;
 }
 label{
@@ -52,10 +44,6 @@ input[type="submit"]{
     cursor: pointer;
 }
 input[type="submit"]:hover{
-    background-color: rgb(222, 193, 193);
+    background-color: #b7b7f4;
 }
-
-footer{
-    text-align: center;
-    background-color: rgb(210, 255, 255);
 }
