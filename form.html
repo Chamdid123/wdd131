@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammad noordin">
     <meta name="description" content="This form website is the better study of the wdd131 course.">
 
 
@@ -12,7 +13,7 @@
     <script src="scripts/form.js" defer></script>
 
 
-    <title>Form Page</title>
+    <title>Product Review form</title>
 </head>
 <body>
     <header>
@@ -21,11 +22,10 @@
     <main>
         <div class="cham"> 
             <form method="get" action="review.html">
-                <label>Product Name
-                    <select id="product" name="product" required>
-                        <option value="" disabled selected>Select a Product..</option>
-                    </select>
-                </label>
+                <label for="product">Product Name</label>
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Select a Product..</option>
+                </select>
                 <fieldset>
                     <legend>
                         Overall Rating        
